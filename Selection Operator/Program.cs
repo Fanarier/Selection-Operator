@@ -43,13 +43,13 @@ try
 
     Console.ForegroundColor = ConsoleColor.Green;
 
-    if (S1 > Sbox1) Console.WriteLine("Площать треугольника№1 больше площади квадрата№1.");
+    if (S1 > Sbox1) Console.WriteLine("Площадь треугольника№1 больше площади квадрата№1.");
     else Console.WriteLine("Площадь квадрата№1 больше площади треугольника №1.");
 
-    if (S2 > Sbox2) Console.WriteLine("Площать треугольника№2 больше площади квадрата№2.");
+    if (S2 > Sbox2) Console.WriteLine("Площадь треугольника№2 больше площади квадрата№2.");
     else Console.WriteLine("Площадь квадрата№2 больше площади треугольника №2.");
 
-    if (S3 > Sbox3) Console.WriteLine("Площать треугольника№3 больше площади квадрата№3.");
+    if (S3 > Sbox3) Console.WriteLine("Площадь треугольника№3 больше площади квадрата№3.");
     else Console.WriteLine("Площадь квадрата№3 больше площади треугольника №3.");
 
     Console.ForegroundColor = ConsoleColor.White;
