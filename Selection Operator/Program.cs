@@ -11,17 +11,17 @@ try
     {
         P1 = (a1 + b1 + c1) / 2; //полупериметр треугольника№1
         S1 = Math.Sqrt(P1 * (P1 - a1) * (P1 - b1) * (P1 - c1));//S треугольника№1
-        Console.WriteLine("Площать треугольника№1 равен:");
+        Console.WriteLine("Площадь треугольника№1 равен:");
         Console.WriteLine($"{S1:F2}");
 
         P2 = (a2 + b2 + c2) / 2; //полупериметр треугольника№2
         S2 = Math.Sqrt(P2 * (P2 - a2) * (P2 - b2) * (P2 - c2));//S треугольника№2
-        Console.WriteLine("Площать треугольника№2 равен:");
+        Console.WriteLine("Площадь треугольника№2 равен:");
         Console.WriteLine($"{S2:F2}");
 
         P3 = (a3 + b3 + c3) / 2; //полупериметр треугольника№3
         S3 = Math.Sqrt(P3 * (P3 - a3) * (P3 - b3) * (P3 - c3));//S треугольника№3
-        Console.WriteLine("Площать треугольника№3 равен:");
+        Console.WriteLine("Площадь треугольника№3 равен:");
         Console.WriteLine($"{S3:F2}");
     }
     Console.ForegroundColor = ConsoleColor.DarkBlue;
@@ -29,28 +29,28 @@ try
     double Sbox1, Sbox2, Sbox3;
     {
         Sbox1 = Math.Sqrt(Math.Pow(a1, 2)); //S квадрата№1
-        Console.WriteLine("Площать квадрата№1 равен:");
+        Console.WriteLine("Площадь квадрата№1 равен:");
         Console.WriteLine($"{Sbox1:F2}");
 
         Sbox2 = Math.Sqrt(Math.Pow(a2, 2)); //S квадрата№2
-        Console.WriteLine("Площать квадрата№2 равен:");
+        Console.WriteLine("Площадь квадрата№2 равен:");
         Console.WriteLine($"{Sbox2:F2}");
 
         Sbox3 = Math.Sqrt(Math.Pow(a3, 2)); //S квадрата№3
-        Console.WriteLine("Площать квадрата№3 равен:");
+        Console.WriteLine("Площадь квадрата№3 равен:");
         Console.WriteLine($"{Sbox3:F2}");
     }
 
     Console.ForegroundColor = ConsoleColor.Green;
 
     if (S1 > Sbox1) Console.WriteLine("Площать треугольника№1 больше площади квадрата№1.");
-    else Console.WriteLine("Площать квадрата№1 больше площади треугольника №1.");
+    else Console.WriteLine("Площадь квадрата№1 больше площади треугольника №1.");
 
     if (S2 > Sbox2) Console.WriteLine("Площать треугольника№2 больше площади квадрата№2.");
-    else Console.WriteLine("Площать квадрата№2 больше площади треугольника №2.");
+    else Console.WriteLine("Площадь квадрата№2 больше площади треугольника №2.");
 
     if (S3 > Sbox3) Console.WriteLine("Площать треугольника№3 больше площади квадрата№3.");
-    else Console.WriteLine("Площать квадрата№3 больше площади треугольника №3.");
+    else Console.WriteLine("Площадь квадрата№3 больше площади треугольника №3.");
 
     Console.ForegroundColor = ConsoleColor.White;
 }
